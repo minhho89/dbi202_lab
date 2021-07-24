@@ -7,6 +7,8 @@
         +--------------------------+
 **/
 
+USE DBI202_LAB
+GO
 -- Câu 1. Hiển thị danh sách các khách hàng có điện thoại là 8457895 gồm mã khách hàng, tên khách hàng, địa chỉ, điện thoại, và địa chỉ E-mail.
 SELECT MAKH, TENKH, DIACHI, DT, EMAIL
 FROM KHACHHANG

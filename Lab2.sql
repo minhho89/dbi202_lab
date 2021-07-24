@@ -52,7 +52,7 @@ CREATE TABLE HOADON
     MAHD NVARCHAR(10) NOT NULL PRIMARY KEY,
     NGAY DATETIME,
     MAKH NVARCHAR(5),
-    TONGTG MONEY
+    TONGGT MONEY
 )
 -- Ràng buộc cần có trong bảng: MAKH là khóa ngoại tham chiếu tới MAKH trong bảng KHACHHANG.
 ALTER TABLE HOADON
